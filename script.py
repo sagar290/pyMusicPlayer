@@ -1,7 +1,14 @@
 import os
 from tkinter.filedialog import askdirectory
-import pygame
-from mutagen.id3 import ID3
+try:
+    import pygame
+    from mutagen.id3 import ID3       
+except ImportError:
+    print("Trying to Install required module: requests\n")
+    os.system('python -m pip install pygame')
+    os.system('python -m pip install mutagen')
+    import pygame
+    from mutagen.id3 import ID3
 from tkinter import *
 
 root = Tk()
