@@ -5,5 +5,3 @@ Hope you enjoy it!
 ![main panel](Screenshot_1.png)
 ![main panel after loading image](Screenshot_2.png)
 
-
-feedback or commit is welcome :D
